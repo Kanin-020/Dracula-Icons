@@ -3,20 +3,14 @@ import consola from 'consola'
 
 const cmd = [
   'catwalk',
-  'assets/previews/latte-icons.png',
-  'assets/previews/frappe-icons.png',
-  'assets/previews/macchiato-icons.png',
-  'assets/previews/mocha-icons.png',
+  'assets/previews/dracula-icons.png',
   '-o assets/preview.webp',
   '-l composite',
 ].join(' ')
 
 const cmd2x = [
   'catwalk',
-  'assets/previews/latte-icons@2x.png',
-  'assets/previews/frappe-icons@2x.png',
-  'assets/previews/macchiato-icons@2x.png',
-  'assets/previews/mocha-icons@2x.png',
+  'assets/previews/dracula-icons@2x.png',
   '-o assets/preview@2x.webp',
   '-l composite',
 ].join(' ')

@@ -5,7 +5,7 @@ import { launch } from 'puppeteer'
 import consola from 'consola'
 import { type CattppucinVariant, varToHex } from '@/palettes'
 
-const catppuccinVariants: CattppucinVariant[] = ['mocha']
+const catppuccinVariants: CattppucinVariant[] = ['dracula']
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
@@ -43,9 +43,9 @@ function generateIconOnlyHtml(scale: number, files: string[], folders: string[],
 
 await remove(PREVIEWS)
 await ensureDir(PREVIEWS)
-const iconsPath = join(THEMES, 'latte', 'icons')
+const iconsPath = join(THEMES, 'dracula', 'icons')
 await unlink(join(iconsPath, '.DS_Store')).catch(() => {})
-const icons = await readdir(join(THEMES, 'latte', 'icons'))
+const icons = await readdir(join(THEMES, 'dracula', 'icons'))
 
 const [folderIcons, fileIcons] = icons.reduce(
   (acc, cur) =>

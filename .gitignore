@@ -1,8 +1,18 @@
-dist/
-node_modules/
-/icons/
-themes/
+### VSCODE ###
+.vscode
+
+### Folders ###
+assets
+dist
+node_modules
+icons
+themes
+
+### Config files ###
+
 .eslintcache
 .pnpm-debug.log*
 *.vsix
 .DS_Store
+package-lock.json
+yarn.lock
