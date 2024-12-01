@@ -11,23 +11,21 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/palettes-10-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
-  <img src="https://img.shields.io/visual-studio-marketplace/i/thang-nm.catppuccin-perfect-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge">
+  <img src="https://img.shields.io/badge/palettes-3-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
+
 </p>
 
-## 🏞️ Preview
 
-<br />
+<details>
+  <summary>🦇 <strong>Dracula Theme Regular & Soft</strong></summary>
 
 <p align="center">
-  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons@2x.png?t=20230915">
+  <img width="640" src="https://raw.githubusercontent.com/Kanin-020/Dracula-Icons/refs/heads/main/previews/dracula-icons%402x.png">
 </p>
 
-## ⭐️ Customization
+</details>
 
-### 🚦 Be patient!
 
-The options will arrive soon! Please use some commands instead.
 
 ### Requirement
 
