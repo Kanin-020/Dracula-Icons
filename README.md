@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="160" alt="Logo"/><br/>
-  <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons">Catppuccin Perfect Icons</a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons">Dracula Icons</a>
 </h1>
 
 <p align="center">
@@ -100,13 +100,7 @@ The options will arrive soon! Please use some commands instead.
 _You can make aliases for those commands to make them easier to run._
 
 <br />
-<br />
-<br />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.png"/>
-</p>
-
-<p align="center">
-  by <a href="https://github.com/thang-nm" target="_blank">thang-nm</a>
+  by <a href="https://github.com/Kanin-020" target="_blank">Kanin</a>
 </p>

@@ -2,11 +2,11 @@
 .vscode
 
 ### Folders ###
-assets
 dist
 node_modules
 icons
 themes
+/assets/
 
 ### Config files ###
 
@@ -16,3 +16,4 @@ themes
 .DS_Store
 package-lock.json
 yarn.lock
+.env

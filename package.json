@@ -4,7 +4,7 @@
   "displayName": "Dracula Icons",
   "type": "module",
   "version": "0.0.1",
-  "description": "Dracula Icons",
+  "description": "Dracula and Catppuccin fusion for vscode icons.",
   "author": {
     "name": "Kanin"
   },
@@ -18,26 +18,22 @@
   },
   "keywords": [
     "theme",
+    "themes",
     "fancy",
-    "pastel-colors",
-    "perfect",
+    "neon-colors",
+    "dark-colors",
     "pixel perfect",
     "perfect pixel",
     "line icons",
-    "aura",
-    "ayu",
     "dracula",
-    "monokai",
-    "sequoia",
+    "dracula theme",
+    "dracula icons",
     "vscode",
     "vscode-theme",
     "vscode-icons",
     "vscode-extension"
   ],
   "icon": "logo.png",
-  "files": [
-    "dist"
-  ],
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -47,6 +43,16 @@
         "id": "dracula-icon-regular",
         "label": "Dracula Theme Regular",
         "path": "themes/dracula/theme.json"
+      },
+      {
+        "id": "dracula-icon-pro",
+        "label": "Dracula Theme PRO",
+        "path": "themes/draculaPro/theme.json"
+      },
+      {
+        "id": "dracula-icon-pro-alucard",
+        "label": "Dracula Theme PRO Alucard",
+        "path": "themes/draculaProAlucard/theme.json"
       }
     ]
   },
@@ -63,6 +69,9 @@
     "lint:fix": "eslint . --fix",
     "package": "vsce package --no-dependencies",
     "release": "bumpp -t \"v%s\" -c \"chore: release v\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",

@@ -5,7 +5,7 @@ import { launch } from 'puppeteer'
 import consola from 'consola'
 import { type CattppucinVariant, varToHex } from '@/palettes'
 
-const catppuccinVariants: CattppucinVariant[] = ['dracula']
+const catppuccinVariants: CattppucinVariant[] = ['draculaPro']
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
@@ -18,7 +18,7 @@ function generateIconOnlyHtml(scale: number, files: string[], folders: string[],
   const tags = (icons: string[]) => icons.map(icon =>
     `<div style="width: 25%; display: flex; align-items: center; padding: ${s(6)}px 0">
       <img style="width: ${s(16)}px;" src="../../themes/${flavor}/icons/${icon}" />
-      <span style="font-size: ${s(10)}px; font-family: 'JetBrains Mono'; color: ${varToHex[flavor]['--ctp-text']}; padding-left: ${s(10)}px">
+      <span style="font-size: ${s(10)}px; font-family: 'Consolas'; color: ${varToHex[flavor]['--ctp-text']}; padding-left: ${s(10)}px">
         ${n(icon)}
       </span>
     </div>
