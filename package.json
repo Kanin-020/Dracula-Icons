@@ -4,15 +4,12 @@
   "displayName": "Dracula Icons",
   "type": "module",
   "version": "0.0.1",
-  "description": "Dracula and Catppuccin fusion for vscode icons.",
+  "description": "Dracula and Catppuccin fusion for VSCode icons.",
   "author": {
     "name": "Kanin"
   },
   "license": "MIT",
   "repository": {
-    "categories": [
-      "Themes"
-    ],
     "type": "git",
     "url": "https://github.com/Kanin-020/Dracula-Icons"
   },
@@ -32,6 +29,9 @@
     "vscode-theme",
     "vscode-icons",
     "vscode-extension"
+  ],
+  "categories": [
+    "Themes"
   ],
   "icon": "resources/icon.png",
   "engines": {

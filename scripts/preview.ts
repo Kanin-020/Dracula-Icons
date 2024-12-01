@@ -5,7 +5,7 @@ import { launch } from 'puppeteer'
 import consola from 'consola'
 import { type CattppucinVariant, varToHex } from '@/palettes'
 
-const catppuccinVariants: CattppucinVariant[] = ['draculaPro']
+const catppuccinVariants: CattppucinVariant[] = ['draculaProAlucard']
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
