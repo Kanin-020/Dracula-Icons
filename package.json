@@ -33,7 +33,7 @@
     "vscode-icons",
     "vscode-extension"
   ],
-  "icon": "logo.png",
+  "icon": "resources/icon.png",
   "engines": {
     "vscode": "^1.86.0"
   },
