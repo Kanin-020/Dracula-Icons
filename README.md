@@ -78,7 +78,7 @@
 <h3>Alucard</h3>
 
 <p align="center">
-  <img width="640" src="https://raw.githubusercontent.com/Kanin-020/Dracula-Icons/refs/heads/main/previews/draculaPro-Alucard-icons%402x.png">
+  <img width="640" src="https://raw.githubusercontent.com/Kanin-020/Dracula-Icons/refs/heads/main/previews/draculaProAlucard-icons%402x.png">
 </p>
 
 </details>
